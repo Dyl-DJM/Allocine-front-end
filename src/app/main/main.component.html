@@ -1,0 +1,8 @@
+<h1>Allociné</h1>
+
+<div>
+  <app-navbar (newItemEvent)="notifyUser($event)"></app-navbar>
+  <div class="alignement">
+    <app-movie-list [monInput]="movies_found"></app-movie-list>
+  </div>
+</div>
